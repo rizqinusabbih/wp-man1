@@ -2070,11 +2070,16 @@ section {
 }
 
 .blog .posts-list .post-title {
-  font-size: 24px;
+  font-size: 16px;
   color: var(--color-secondary);
   font-weight: 700;
   transition: 0.3s;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
+}
+
+.blog .post-item .post-content .identity {
+  margin-top: -12px;
+  font-size: 14px;
 }
 
 .blog .posts-list .meta i {
